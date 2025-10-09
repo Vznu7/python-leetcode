@@ -13,5 +13,3 @@ class Solution:
             dividend -= temp
             res += multiple
         return sign * res
-
-# ////
