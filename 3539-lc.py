@@ -15,7 +15,7 @@ class Solution:
                 return 0
 
             res = 0
-            # try taking count copies of nums[i] (0..rem_m)
+            
             for count in range(rem_m + 1):
                 comb = math.comb(rem_m, count)  # C(rem_m, count)
                 contribution = comb * pow(nums[i], count, self.MOD) % self.MOD
