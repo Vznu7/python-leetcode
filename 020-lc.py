@@ -12,4 +12,5 @@ class Solution:
             else:
                 stack.append(char)
         return True if not stack else False
+        #there is another solution
         
