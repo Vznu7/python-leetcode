@@ -1,6 +1,6 @@
 class Solution(object):
     def romanToInt(self, s):
-      
+      #this is a big o(n) method
         roman = {
             'I': 1,
             'V': 5,
