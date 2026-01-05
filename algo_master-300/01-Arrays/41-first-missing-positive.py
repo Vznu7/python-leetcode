@@ -7,7 +7,7 @@ class Solution:
         return len(nums) + 1
 
 
-### efficient approach
+### efficient approach this is efficient but complex
 
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
